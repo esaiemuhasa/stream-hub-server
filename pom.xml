@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.modernik.stream.server</groupId>
+  <artifactId>stream-hub-server</artifactId>
+  <packaging>war</packaging>
+  <version>1.0</version>
+  <name>stream Hub - Server</name>
+  <url>https://stream.modernik.net</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>5.11.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>stream-hub-server</finalName>
+  </build>
+</project>
